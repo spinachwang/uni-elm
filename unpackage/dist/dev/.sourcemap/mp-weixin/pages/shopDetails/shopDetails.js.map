@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:////Users/bob/Documents/vue/uni-first/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,+G;AACAA,UAAU,CAACC,oBAAD,CAAV,C","file":"pages/shopDetails/shopDetails.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/shopDetails/shopDetails.vue'\ncreatePage(Page)"],"sourceRoot":""}

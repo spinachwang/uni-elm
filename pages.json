@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "饿了么",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "订单",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/selectAddress/selectAddress",
+      "style": {
+        "navigationBarTitleText": "选择收货地址",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/addAddress/addAddress",
+      "style": {
+        "navigationBarTitleText": "新增地址",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shopDetail/shopDetail",
+      "style": {
+        "navigationBarTitleText": "饿了么",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/searchShop/searchShop",
+      "style": {
+        "navigationBarTitleText": "饿了么",
+        "enablePullDownRefresh": false
+      }
+    }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "饿了么",
+    "navigationBarBackgroundColor": "#409EFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#409EFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/image/elm.png",
+        "selectedIconPath": "static/image/elm-selected.png",
+        "text": "外卖"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/image/order.png",
+        "selectedIconPath": "static/image/order-selected.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/image/me.png",
+        "selectedIconPath": "static/image/me-selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

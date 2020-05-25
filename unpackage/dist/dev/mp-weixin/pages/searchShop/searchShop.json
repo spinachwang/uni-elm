@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "饿了么",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "restaurants-summary": "/custom/restaurants-summary/restaurants-summary"
+  }
+}

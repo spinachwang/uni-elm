@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "饿了么",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "restaurants-summary": "/custom/restaurants-summary/restaurants-summary"
+  }
+}
